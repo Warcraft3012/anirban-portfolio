@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anirban Chakravertty - Data Analyst & Backend Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/tron-theme.css">
+</head>
+<body class="tron-cursor">
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-cube"></div>
+            <p class="loading-text">Initializing Neural Network...</p>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <nav class="nav-container">
+            <div class="nav-brand">AC</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">HOME</a></li>
+                <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+                <li><a href="#education" class="nav-link">EDUCATION</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Add this in the <body> tag, right after the opening <body> tag -->
+    <audio id="background-music" preload="none" loop>
+        <source src="assets/audio/background-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Mute Button - Add this in the <header> section, after <nav> -->
+    <div class="music-control">
+        <button id="music-toggle" class="music-btn" title="Toggle Music">
+            <span class="music-icon">🔊</span>
+        </button>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background">
+                <canvas id="hero-canvas" class="hero-canvas"></canvas>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title glitch" data-text="Anirban Chakravertty">Anirban Chakravertty</h1>
+                <p class="hero-tagline">Data Analyst & Backend Developer</p>
+                <p class="hero-subtitle">Transforming Data Into Insights | Building Scalable Systems</p>
+                <div class="hero-cta">
+                    <a href="assets/resume/Anirban_Chakravertty_Resume.pdf" download="Anirban_Chakravertty_Resume.pdf" class="cta-button primary">
+                        <span class="btn-icon">📄</span>
+                        <span class="btn-text">Get Resume</span>
+                    </a>
+                    <a href="https://github.com/Warcraft3012" target="_blank" class="cta-button secondary">
+                        <span class="btn-icon">💻</span>
+                        <span class="btn-text">GitHub</span>
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Skills Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Data Processing & Analysis</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔍</div>
+                    <h3>SQL</h3>
+                    <p>Database Management</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Power BI</h3>
+                    <p>Data Visualization</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Streamlit</h3>
+                    <p>Web App Development</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Go</h3>
+                    <p>Backend Systems</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud Platforms</h3>
+                    <p>AWS, Azure, GCP</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>FastAPI</h3>
+                    <p>API Development</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 78%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💾</div>
+                    <h3>Redis</h3>
+                    <p>Caching & Sessions</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 72%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Project Portfolio</h2>
+            <div class="projects-grid">
+                <!-- Fitness Tracker Analytics -->
+                <div class="project-card" data-project="fitness">
+                    <div class="project-header">
+                        <h3>Fitness Tracker Analytics</h3>
+                        <span class="project-tag">Data Analytics</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            Advanced fitness analytics platform with real-time data processing and insights. Built with Python and Streamlit, providing users with comprehensive health metrics tracking.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Streamlit</span>
+                            <span class="tech-badge">SQL</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/Warcraft3012/fitness-project-" target="_blank" class="project-btn">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Distributed Backend Platform -->
+                <div class="project-card" data-project="backend">
+                    <div class="project-header">
+                        <h3>Distributed Backend Platform</h3>
+                        <span class="project-tag">Backend</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            High-performance distributed system architecture with load balancing and microservices. Engineered for scalability and reliability across multiple servers.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Go</span>
+                            <span class="tech-badge">Docker</span>
+                            <span class="tech-badge">Kubernetes</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="project-btn disabled">Coming Soon</a>
+                    </div>
+                </div>
+
+                <!-- Indian Job Analysis Dashboard -->
+                <div class="project-card" data-project="dashboard">
+                    <div class="project-header">
+                        <h3>Indian Job Analysis Dashboard</h3>
+                        <span class="project-tag">Data Visualization</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            Comprehensive job market analysis for India with interactive visualizations. Tracks employment trends, salary distributions, and skill demand across industries.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Power BI</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">SQL</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/Warcraft3012/indian-job-dashboard" target="_blank" class="project-btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="timeline">
+                <div class="timeline-track">
+                    <div class="timeline-item" data-company="yash">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior Data Analyst</h3>
+                                <span class="company-name">Yash Technologies</span>
+                            </div>
+                            <span class="timeline-date">Oct 2025 - Current</span>
+                            <p class="timeline-description">
+                                Leading data analytics initiatives, developing Power BI dashboards, and providing strategic insights to drive business decisions. Mentoring junior analysts and implementing best practices.
+                            </p>
+                            <div class="timeline-highlights">
+                                <span class="highlight">Dashboard Development</span>
+                                <span class="highlight">Data Modeling</span>
+                                <span class="highlight">Team Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-company="ey">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Python Developer</h3>
+                                <span class="company-name">EY (Ernst & Young)</span>
+                            </div>
+                            <span class="timeline-date">Jun 2025 - Sep 2025</span>
+                            <p class="timeline-description">
+                                Developed automation scripts and backend services using Python. Collaborated with cross-functional teams to deliver efficient solutions and improve system performance.
+                            </p>
+                            <div class="timeline-highlights">
+                                <span class="highlight">Python Automation</span>
+                                <span class="highlight">API Integration</span>
+                                <span class="highlight">Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-grid">
+                <!-- Education Container -->
+                <div class="edu-category">
+                    <h3 class="edu-category-title">Academic</h3>
+                    <div class="edu-items" id="education-container">
+                        <!-- Dynamically loaded from data.json -->
+                    </div>
+                </div>
+
+                <!-- Certifications Container -->
+                <div class="edu-category">
+                    <h3 class="edu-category-title">Certifications</h3>
+                    <div class="edu-items" id="certifications-container">
+                        <!-- Dynamically loaded from data.json -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="contact-content">
+                <p class="contact-subtitle">Let's collaborate and create something extraordinary</p>
+                <div class="contact-links">
+                    <a href="mailto:lordishere17@gmail.com" class="contact-btn email-btn">
+                        <span class="btn-icon">✉️</span>
+                        <span class="btn-text">Send Email</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anirban-chakravertty-475b26316/" target="_blank" class="contact-btn linkedin-btn">
+                        <span class="btn-icon">💼</span>
+                        <span class="btn-text">LinkedIn Profile</span>
+                    </a>
+                    <a href="https://github.com/Warcraft3012" target="_blank" class="contact-btn github-btn">
+                        <span class="btn-icon">🔗</span>
+                        <span class="btn-text">GitHub Profile</span>
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> lordishere17@gmail.com</p>
+                    <p><strong>Location:</strong> India</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Anirban Chakravertty. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#hero">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/data-loader.js"></script>  <!-- Add this line -->
+</body>
+</html>

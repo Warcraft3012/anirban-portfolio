@@ -1,0 +1,21 @@
+{
+  "name": "anirban-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Anirban Chakravertty - Data Analyst & Backend Developer",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server src -p 3000 -o",
+    "dev": "npx http-server src -p 3000",
+    "build": "echo 'No build step needed for static site'"
+  },
+  "keywords": [
+    "portfolio",
+    "data-analyst",
+    "backend-developer",
+    "tron-theme"
+  ],
+  "author": "Anirban Chakravertty",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

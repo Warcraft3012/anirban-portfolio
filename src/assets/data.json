@@ -1,0 +1,243 @@
+{
+  "profile": {
+    "name": "Anirban Chakravertty",
+    "title": "Data Analyst & Backend Developer",
+    "tagline": "Transforming Data Into Insights | Building Scalable Systems",
+    "email": "lordishere17@gmail.com",
+    "phone": "+91 XXXXXXXXXX",
+    "location": "India",
+    "github": "https://github.com/Warcraft3012",
+    "linkedin": "https://www.linkedin.com/in/anirban-chakravertty-475b26316/",
+    "resume": "/assets/resume.pdf"
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "Python",
+      "icon": "🐍",
+      "category": "Language",
+      "proficiency": 90,
+      "description": "Data Processing & Analysis"
+    },
+    {
+      "id": 2,
+      "name": "SQL",
+      "icon": "🔍",
+      "category": "Database",
+      "proficiency": 85,
+      "description": "Database Management"
+    },
+    {
+      "id": 3,
+      "name": "Power BI",
+      "icon": "📊",
+      "category": "Tool",
+      "proficiency": 80,
+      "description": "Data Visualization"
+    },
+    {
+      "id": 4,
+      "name": "Streamlit",
+      "icon": "🚀",
+      "category": "Framework",
+      "proficiency": 75,
+      "description": "Web App Development"
+    },
+    {
+      "id": 5,
+      "name": "Go",
+      "icon": "⚡",
+      "category": "Language",
+      "proficiency": 70,
+      "description": "Backend Systems"
+    },
+    {
+      "id": 6,
+      "name": "Cloud Platforms",
+      "icon": "☁️",
+      "category": "Cloud",
+      "proficiency": 80,
+      "description": "AWS, Azure, GCP"
+    },
+    {
+      "id": 7,
+      "name": "FastAPI",
+      "icon": "⚙️",
+      "category": "Framework",
+      "proficiency": 78,
+      "description": "API Development"
+    },
+    {
+      "id": 8,
+      "name": "Redis",
+      "icon": "💾",
+      "category": "Database",
+      "proficiency": 72,
+      "description": "Caching & Sessions"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Fitness Tracker Analytics",
+      "category": "Data Analytics",
+      "description": "Advanced fitness analytics platform with real-time data processing and insights. Built with Python and Streamlit, providing users with comprehensive health metrics tracking.",
+      "technologies": ["Python", "Streamlit", "SQL", "Pandas"],
+      "highlights": [
+        "Real-time data processing",
+        "Custom health dashboards",
+        "Performance analytics"
+      ],
+      "github": "https://github.com/Warcraft3012/fitness-project-",
+      "demo": null,
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "title": "Distributed Backend Platform",
+      "category": "Backend",
+      "description": "High-performance distributed system architecture with load balancing and microservices. Engineered for scalability and reliability across multiple servers.",
+      "technologies": ["Go", "Docker", "Kubernetes", "Redis"],
+      "highlights": [
+        "Microservices architecture",
+        "Load balancing",
+        "High availability"
+      ],
+      "github": null,
+      "demo": null,
+      "status": "coming_soon"
+    },
+    {
+      "id": 3,
+      "title": "Indian Job Analysis Dashboard",
+      "category": "Data Visualization",
+      "description": "Comprehensive job market analysis for India with interactive visualizations. Tracks employment trends, salary distributions, and skill demand across industries.",
+      "technologies": ["Power BI", "Python", "SQL", "Excel"],
+      "highlights": [
+        "Interactive visualizations",
+        "Trend analysis",
+        "Market insights"
+      ],
+      "github": "https://github.com/Warcraft3012/indian-job-dashboard",
+      "demo": null,
+      "status": "completed"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Senior Data Analyst",
+      "company": "Yash Technologies",
+      "companyLogo": null,
+      "startDate": "2025-10-01",
+      "endDate": null,
+      "isCurrent": true,
+      "description": "Leading data analytics initiatives, developing Power BI dashboards, and providing strategic insights to drive business decisions. Mentoring junior analysts and implementing best practices.",
+      "highlights": [
+        "Dashboard Development",
+        "Data Modeling",
+        "Team Leadership",
+        "Strategic Analysis"
+      ],
+      "technologies": ["Power BI", "SQL", "Python", "Excel"]
+    },
+    {
+      "id": 2,
+      "role": "Python Developer",
+      "company": "EY (Ernst & Young)",
+      "companyLogo": null,
+      "startDate": "2025-06-01",
+      "endDate": "2025-09-30",
+      "isCurrent": false,
+      "description": "Developed automation scripts and backend services using Python. Collaborated with cross-functional teams to deliver efficient solutions and improve system performance.",
+      "highlights": [
+        "Python Automation",
+        "API Integration",
+        "Problem Solving",
+        "System Optimization"
+      ],
+      "technologies": ["Python", "FastAPI", "SQL", "Git"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "type": "degree",
+      "institution": "Manipal University Jaipur",
+      "qualification": "Bachelor of Technology",
+      "field": "Computer Science",
+      "startDate": "2021-01-01",
+      "endDate": "2025-12-31",
+      "grade": null,
+      "icon": "🎓"
+    },
+    {
+      "id": 2,
+      "type": "senior-secondary",
+      "institution": "Peoples Public School, Bhopal",
+      "qualification": "12th Grade",
+      "field": "CBSE",
+      "startDate": "2019-01-01",
+      "endDate": "2021-03-31",
+      "grade": null,
+      "icon": "📚"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Google Cloud Certified",
+      "issuer": "Google",
+      "date": "2023",
+      "icon": "🔵",
+      "url": null
+    },
+    {
+      "id": 2,
+      "name": "Microsoft Certified",
+      "issuer": "Microsoft",
+      "date": "2024",
+      "icon": "🟦",
+      "url": null
+    },
+    {
+      "id": 3,
+      "name": "IBM Data Science",
+      "issuer": "IBM",
+      "date": "2025",
+      "icon": "🟠",
+      "url": null
+    },
+    {
+      "id": 4,
+      "name": "AWS Certified",
+      "issuer": "Amazon Web Services",
+      "date": "2024",
+      "icon": "🟨",
+      "url": null
+    }
+  ],
+  "social": {
+    "github": {
+      "url": "https://github.com/Warcraft3012",
+      "icon": "🔗"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/anirban-chakravertty-475b26316/",
+      "icon": "💼"
+    },
+    "email": {
+      "url": "mailto:lordishere17@gmail.com",
+      "icon": "✉️"
+    }
+  },
+  "theme": {
+    "primaryColor": "#00ffcc",
+    "secondaryColor": "#ff00ff",
+    "accentColor": "#00ff00",
+    "darkBg": "#0a0e27",
+    "darkerBg": "#050810",
+    "textPrimary": "#ffffff",
+    "textSecondary": "#b0b0b0"
+  }
+}
