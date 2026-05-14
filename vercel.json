@@ -1,7 +1,14 @@
 {
   "buildCommand": "echo \"Static site\"",
   "outputDirectory": ".",
+  "framework": "static",
   "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "index.html"
+    }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
