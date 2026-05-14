@@ -1,6 +1,6 @@
 {
   "buildCommand": "echo \"Static site\"",
-  "outputDirectory": ".",
+  "outputDirectory": "src",
   "cleanUrls": true,
   "headers": [
     {
