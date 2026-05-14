@@ -1,14 +1,14 @@
 {
   "profile": {
     "name": "Anirban Chakravertty",
-    "title": "Data Analyst & Backend Developer",
-    "tagline": "Transforming Data Into Insights | Building Scalable Systems",
-    "email": "lordishere17@gmail.com",
-    "phone": "+91 XXXXXXXXXX",
-    "location": "India",
+    "title": "Aspiring Data Engineer | Python",
+    "tagline": "AI/ML Engineer with hands-on expertise in building generative AI pipelines, distributed backend systems, and data analysis products",
+    "email": "aanirbanchakravertty2025@gmail.com",
+    "phone": "+91 8889626579",
+    "location": "Bilaspur, India",
     "github": "https://github.com/Warcraft3012",
-    "linkedin": "https://www.linkedin.com/in/anirban-chakravertty-475b26316/",
-    "resume": "/assets/resume.pdf"
+    "linkedin": "https://www.linkedin.com/in/anirban-chakravertty/",
+    "resume": "/assets/resume/Anirban_Chakravertty_Resume.pdf"
   },
   "skills": [
     {
@@ -16,109 +16,144 @@
       "name": "Python",
       "icon": "🐍",
       "category": "Language",
-      "proficiency": 90,
-      "description": "Data Processing & Analysis"
+      "proficiency": 95,
+      "description": "Data Processing & GenAI Applications"
     },
     {
       "id": 2,
       "name": "SQL",
       "icon": "🔍",
       "category": "Database",
-      "proficiency": 85,
-      "description": "Database Management"
+      "proficiency": 90,
+      "description": "Database Design & Optimization"
     },
     {
       "id": 3,
-      "name": "Power BI",
-      "icon": "📊",
-      "category": "Tool",
-      "proficiency": 80,
-      "description": "Data Visualization"
+      "name": "PySpark",
+      "icon": "⚡",
+      "category": "Data Engineering",
+      "proficiency": 88,
+      "description": "Large-Scale Data Processing"
     },
     {
       "id": 4,
-      "name": "Streamlit",
-      "icon": "🚀",
+      "name": "FastAPI",
+      "icon": "🔧",
       "category": "Framework",
-      "proficiency": 75,
-      "description": "Web App Development"
+      "proficiency": 85,
+      "description": "High-Performance API Development"
     },
     {
       "id": 5,
       "name": "Go",
-      "icon": "⚡",
+      "icon": "🎯",
       "category": "Language",
-      "proficiency": 70,
-      "description": "Backend Systems"
+      "proficiency": 80,
+      "description": "Distributed Systems & Backend"
     },
     {
       "id": 6,
-      "name": "Cloud Platforms",
-      "icon": "☁️",
-      "category": "Cloud",
-      "proficiency": 80,
-      "description": "AWS, Azure, GCP"
+      "name": "GenAI/LLMs",
+      "icon": "🤖",
+      "category": "AI/ML",
+      "proficiency": 85,
+      "description": "RAG, Prompt Engineering, Model Finetuning"
     },
     {
       "id": 7,
-      "name": "FastAPI",
-      "icon": "⚙️",
-      "category": "Framework",
-      "proficiency": 78,
-      "description": "API Development"
+      "name": "Power BI",
+      "icon": "📊",
+      "category": "BI Tool",
+      "proficiency": 88,
+      "description": "Data Visualization & Analytics"
     },
     {
       "id": 8,
+      "name": "Streamlit",
+      "icon": "🚀",
+      "category": "Framework",
+      "proficiency": 82,
+      "description": "Data App Development"
+    },
+    {
+      "id": 9,
       "name": "Redis",
       "icon": "💾",
       "category": "Database",
-      "proficiency": 72,
-      "description": "Caching & Sessions"
+      "proficiency": 80,
+      "description": "Caching & Message Queues"
+    },
+    {
+      "id": 10,
+      "name": "Docker",
+      "icon": "🐳",
+      "category": "DevOps",
+      "proficiency": 82,
+      "description": "Containerization & Orchestration"
+    },
+    {
+      "id": 11,
+      "name": "TensorFlow",
+      "icon": "🧠",
+      "category": "ML Framework",
+      "proficiency": 78,
+      "description": "Deep Learning & Model Training"
+    },
+    {
+      "id": 12,
+      "name": "LangChain",
+      "icon": "⛓️",
+      "category": "AI/ML",
+      "proficiency": 82,
+      "description": "LLM Application Development"
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Fitness Tracker Analytics",
-      "category": "Data Analytics",
-      "description": "Advanced fitness analytics platform with real-time data processing and insights. Built with Python and Streamlit, providing users with comprehensive health metrics tracking.",
-      "technologies": ["Python", "Streamlit", "SQL", "Pandas"],
+      "title": "RAG-Based Document Intelligence Pipeline",
+      "category": "AI/ML",
+      "description": "End-to-end document intelligence QA system with RAG API and Streamlit frontend. Full ingestion, chunking, semantic embedding, vector search, and LLM prompt orchestration enabling accurate multi-document Q&A with source attribution.",
+      "technologies": ["Python", "LangChain", "RAG", "Streamlit", "Vector DB"],
       "highlights": [
-        "Real-time data processing",
-        "Custom health dashboards",
-        "Performance analytics"
+        "End-to-end RAG implementation",
+        "Semantic search & embedding",
+        "Production-grade reliability",
+        "Multi-document Q&A"
       ],
-      "github": "https://github.com/Warcraft3012/fitness-project-",
+      "github": null,
       "demo": null,
       "status": "completed"
     },
     {
       "id": 2,
-      "title": "Distributed Backend Platform",
-      "category": "Backend",
-      "description": "High-performance distributed system architecture with load balancing and microservices. Engineered for scalability and reliability across multiple servers.",
-      "technologies": ["Go", "Docker", "Kubernetes", "Redis"],
+      "title": "Concurrent Distributed Job Queue with Redis and GoLang",
+      "category": "Backend Systems",
+      "description": "High-performance distributed job queue system built with Redis and Go. Implements concurrent processing with configurable worker pools, supporting concurrent worker pool loads with reliable producer/consumer patterns.",
+      "technologies": ["Go", "Redis", "Docker", "Concurrency"],
       "highlights": [
-        "Microservices architecture",
-        "Load balancing",
-        "High availability"
+        "Distributed task processing",
+        "Concurrent worker patterns",
+        "Redis message broker",
+        "Scalable architecture"
       ],
       "github": null,
       "demo": null,
-      "status": "coming_soon"
+      "status": "completed"
     },
     {
       "id": 3,
-      "title": "Indian Job Analysis Dashboard",
-      "category": "Data Visualization",
-      "description": "Comprehensive job market analysis for India with interactive visualizations. Tracks employment trends, salary distributions, and skill demand across industries.",
-      "technologies": ["Power BI", "Python", "SQL", "Excel"],
+      "title": "Truck.in Logistics Task Management System",
+      "category": "Full Stack",
+      "description": "Real-time logistics platform with task queue management. Handles high-throughput message processing with efficient distributed load balancing and multi-worker processing.",
+      "technologies": ["Go", "Redis", "FastAPI", "Python"],
       "highlights": [
-        "Interactive visualizations",
-        "Trend analysis",
-        "Market insights"
+        "Real-time task tracking",
+        "Distributed load balancing",
+        "High throughput processing",
+        "Message brokering"
       ],
-      "github": "https://github.com/Warcraft3012/indian-job-dashboard",
+      "github": null,
       "demo": null,
       "status": "completed"
     }
@@ -126,37 +161,54 @@
   "experience": [
     {
       "id": 1,
-      "role": "Senior Data Analyst",
+      "role": "Python Developer (Data)",
       "company": "Yash Technologies",
       "companyLogo": null,
       "startDate": "2025-10-01",
-      "endDate": null,
-      "isCurrent": true,
-      "description": "Leading data analytics initiatives, developing Power BI dashboards, and providing strategic insights to drive business decisions. Mentoring junior analysts and implementing best practices.",
+      "endDate": "2026-03-31",
+      "isCurrent": false,
+      "description": "Engineered data pipelines and ETL workflows using PySpark and SQL. Built Power BI dashboards analyzing 10,000+ job listings with advanced data cleaning and transformation. Drove data-informed operational decisions for enterprise clients.",
       "highlights": [
-        "Dashboard Development",
-        "Data Modeling",
-        "Team Leadership",
-        "Strategic Analysis"
+        "PySpark ETL Pipelines",
+        "Power BI Dashboard Development",
+        "SQL Data Optimization",
+        "Enterprise Analytics"
       ],
-      "technologies": ["Power BI", "SQL", "Python", "Excel"]
+      "technologies": ["PySpark", "Python", "SQL", "Power BI"]
     },
     {
       "id": 2,
-      "role": "Python Developer",
-      "company": "EY (Ernst & Young)",
+      "role": "Data Analytics & Strategy Intern",
+      "company": "Insulate",
       "companyLogo": null,
       "startDate": "2025-06-01",
-      "endDate": "2025-09-30",
+      "endDate": "2025-08-31",
       "isCurrent": false,
-      "description": "Developed automation scripts and backend services using Python. Collaborated with cross-functional teams to deliver efficient solutions and improve system performance.",
+      "description": "Designed and implemented distributed ETL workflows on Unixedata using PySpark for large-scale data transformation. Authored custom Design patterns in Power BI, contributing to modular pipeline framework that accelerated analytics platform development.",
       "highlights": [
-        "Python Automation",
-        "API Integration",
-        "Problem Solving",
-        "System Optimization"
+        "Distributed ETL Architecture",
+        "PySpark Transformations",
+        "Analytics Framework Design",
+        "Pipeline Optimization"
       ],
-      "technologies": ["Python", "FastAPI", "SQL", "Git"]
+      "technologies": ["PySpark", "ETL", "Power BI", "Unixedata"]
+    },
+    {
+      "id": 3,
+      "role": "Backend Developer",
+      "company": "Truck.in",
+      "companyLogo": null,
+      "startDate": "2025-05-01",
+      "endDate": "2025-05-31",
+      "isCurrent": false,
+      "description": "Developed distributed task queue system for logistics operations. Implemented concurrent worker patterns with Redis message broker for efficient task processing and load balancing.",
+      "highlights": [
+        "Distributed Task Queue",
+        "Redis Integration",
+        "Concurrent Processing",
+        "System Architecture"
+      ],
+      "technologies": ["Go", "Redis", "Backend Systems"]
     }
   ],
   "education": [
@@ -186,34 +238,26 @@
   "certifications": [
     {
       "id": 1,
-      "name": "Google Cloud Certified",
-      "issuer": "Google",
-      "date": "2023",
-      "icon": "🔵",
-      "url": null
-    },
-    {
-      "id": 2,
-      "name": "Microsoft Certified",
-      "issuer": "Microsoft",
-      "date": "2024",
+      "name": "Power BI Data Analyst Associate",
+      "issuer": "Microsoft Certified",
+      "date": "2025",
       "icon": "🟦",
       "url": null
     },
     {
-      "id": 3,
-      "name": "IBM Data Science",
-      "issuer": "IBM",
+      "id": 2,
+      "name": "IBM Data Science Professional Certificate",
+      "issuer": "IBM / Coursera",
       "date": "2025",
       "icon": "🟠",
       "url": null
     },
     {
-      "id": 4,
-      "name": "AWS Certified",
-      "issuer": "Amazon Web Services",
+      "id": 3,
+      "name": "Google Data Analytics Professional Certificate",
+      "issuer": "Google / Coursera",
       "date": "2024",
-      "icon": "🟨",
+      "icon": "🔵",
       "url": null
     }
   ],
