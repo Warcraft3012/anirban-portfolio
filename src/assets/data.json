@@ -1,9 +1,9 @@
 {
   "profile": {
     "name": "Anirban Chakravertty",
-    "title": "Aspiring Data Engineer | Python",
+    "title": "Python Developer",
     "tagline": "AI/ML Engineer with hands-on expertise in building generative AI pipelines, distributed backend systems, and data analysis products",
-    "email": "aanirbanchakravertty2025@gmail.com",
+    "email": "anirbanchakravertty802@gmail.com",
     "phone": "+91 8889626579",
     "location": "Bilaspur, India",
     "github": "https://github.com/Warcraft3012",
@@ -53,11 +53,19 @@
     },
     {
       "id": 6,
-      "name": "GenAI/LLMs",
+      "name": "Gen AI",
       "icon": "🤖",
       "category": "AI/ML",
+      "proficiency": 88,
+      "description": "LLMs, RAG, Prompt Engineering, Model Finetuning"
+    },
+    {
+      "id": 6.5,
+      "name": "GenAI/LLMs",
+      "icon": "✨",
+      "category": "AI/ML",
       "proficiency": 85,
-      "description": "RAG, Prompt Engineering, Model Finetuning"
+      "description": "Advanced generative models and language applications"
     },
     {
       "id": 7,
@@ -161,7 +169,7 @@
   "experience": [
     {
       "id": 1,
-      "role": "Python Developer (Data)",
+      "role": "Python Developer Intern",
       "company": "Yash Technologies",
       "companyLogo": null,
       "startDate": "2025-10-01",
@@ -178,20 +186,20 @@
     },
     {
       "id": 2,
-      "role": "Data Analytics & Strategy Intern",
-      "company": "Insulate",
+      "role": "Deal Analytics & Strategy Intern",
+      "company": "Incubyte",
       "companyLogo": null,
       "startDate": "2025-06-01",
       "endDate": "2025-08-31",
       "isCurrent": false,
-      "description": "Designed and implemented distributed ETL workflows on Unixedata using PySpark for large-scale data transformation. Authored custom Design patterns in Power BI, contributing to modular pipeline framework that accelerated analytics platform development.",
+      "description": "Developed analytics and strategy solutions at Incubyte's Gurgaon office. Analyzed deal pipelines and market opportunities using data-driven insights. Contributed to strategic initiatives through comprehensive data analysis and reporting.",
       "highlights": [
-        "Distributed ETL Architecture",
-        "PySpark Transformations",
-        "Analytics Framework Design",
-        "Pipeline Optimization"
+        "Deal Pipeline Analytics",
+        "Market Analysis",
+        "Strategic Reporting",
+        "Data-Driven Decision Making"
       ],
-      "technologies": ["PySpark", "ETL", "Power BI", "Unixedata"]
+      "technologies": ["Excel", "SQL", "Analytics", "Business Intelligence"]
     },
     {
       "id": 3,
